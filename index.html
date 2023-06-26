@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="components.js" defer type="module"></script>
+    <script src="scripts.js" defer type="module"></script>
+</head>
+<body>
+    <main>
+        <div class="tally-section">
+            <input readonly value="0" data-number-input></input>
+            <plus-button data-add-sign></plus-button>
+            <minus-button  data-subtract-sign></minus-button>
+            <reset-button data-reset-input></reset-button>
+        </div>
+    </main> 
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <p>Counter has been reset.</p>
+        </div>
+    </div>
+
+    
+</body>
+</html>
